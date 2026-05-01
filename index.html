@@ -539,41 +539,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:36px 5%;
       </div>
     </div>
 
-    <!-- VIDEO SECTION -->
-    <div class="vis-videos reveal" style="margin-top:4px;">
-      <div class="vis-video-panel">
-        <div class="vis-video-label bad-label">
-          <span class="vis-dot bad-dot"></span>
-          Profile Walkthrough — Before
-        </div>
-        <div class="vis-video-wrap">
-          <video controls preload="none" poster="before.png">
-            <source src="before.mp4" type="video/mp4">
-          </video>
-          <div class="vis-play-hint">Click to play</div>
-        </div>
-        <div class="vis-caption">
-          <span class="vis-cap-icon bad-icon">✗</span>
-          Watch what a customer sees when they find an unmanaged profile.
-        </div>
-      </div>
-      <div class="vis-video-panel">
-        <div class="vis-video-label good-label">
-          <span class="vis-dot good-dot"></span>
-          Profile Walkthrough — After
-        </div>
-        <div class="vis-video-wrap">
-          <video controls preload="none" poster="after.png">
-            <source src="after.mp4" type="video/mp4">
-          </video>
-          <div class="vis-play-hint">Click to play</div>
-        </div>
-        <div class="vis-caption">
-          <span class="vis-cap-icon good-icon">✓</span>
-          Watch what the same profile looks like after full optimization.
-        </div>
-      </div>
-    </div>
+
 
   </div>
 </section>
@@ -600,19 +566,13 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:36px 5%;
 .vis-arrow-wrap{display:flex;align-items:center;justify-content:center;padding:0 20px;background:var(--bg);border-left:1px solid var(--border);border-right:1px solid var(--border);}
 .vis-arrow{font-family:'Bebas Neue',sans-serif;font-size:36px;color:var(--yellow);letter-spacing:2px;}
 
-/* ── VIDEOS ── */
-.vis-videos{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--border);}
-.vis-video-panel{background:var(--bg2);display:flex;flex-direction:column;}
-.vis-video-label{display:flex;align-items:center;gap:10px;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;padding:16px 20px;border-bottom:1px solid var(--border);}
-.vis-video-wrap{position:relative;background:var(--bg3);width:100%;}
-.vis-video-wrap video{width:100%;height:auto;display:block;max-height:360px;object-fit:cover;}
-.vis-play-hint{position:absolute;bottom:12px;right:14px;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.4);pointer-events:none;}
+
 
 @media(max-width:768px){
   .vis-grid{grid-template-columns:1fr;}
   .vis-arrow-wrap{padding:16px;border:none;border-top:1px solid var(--border);border-bottom:1px solid var(--border);}
   .vis-arrow{transform:rotate(90deg);}
-  .vis-videos{grid-template-columns:1fr;}
+
 }
 </style>
 
